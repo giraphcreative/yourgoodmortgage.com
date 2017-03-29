@@ -1,0 +1,17 @@
+
+// include our fonts
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,700,700italic);
+
+
+
+// sans-serif mixin
+@mixin font {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+}
+
+
+// bold face
+@mixin font-bold {
+	font-weight: 700;
+}
